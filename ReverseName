@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string name; //declare variable name
+	cout << "Enter your name: "; //promting user to enter their name
+	cin >> name; //to store the name
+ 
+	reverse(name.begin(), name.end()); //reverse command
+	cout << "Your name in reverse will be: "; //output
+	cout << name;
+	return 0; 
+}
